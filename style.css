@@ -197,3 +197,13 @@ header {
 .white-border {
   border: 2px solid #fff;
 }
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  padding: 24px 0;
+}
