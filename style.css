@@ -144,3 +144,24 @@ header {
 .cookie-description {
   text-align: center;
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+  background-color: #e5e7eb;
+  padding: 96px 0;
+}
+
+.testimonial-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.testimonial-person-name {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+}
