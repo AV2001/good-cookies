@@ -15,6 +15,11 @@ body {
   margin: 0 auto;
 }
 
+.small-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 header {
   background-color: #1f2937;
@@ -43,6 +48,7 @@ header {
   display: inline-block;
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 500;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all 0.3s;
@@ -104,4 +110,37 @@ header {
 
 .hero-img {
   width: 100%;
+}
+
+/* COOKIES SECTION */
+.cookies-section {
+  padding: 48px 0 96px;
+}
+
+.cookies-section-heading {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cookies {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.cookie > img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.cookie-img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.cookie-description {
+  text-align: center;
 }
