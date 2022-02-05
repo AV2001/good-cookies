@@ -88,7 +88,7 @@ header {
   margin-bottom: 16px;
 }
 
-.hero-cta {
+.cta-btn {
   background-color: #3882f6;
   color: #fff;
   font-size: 18px;
@@ -100,7 +100,7 @@ header {
   transition: background-color 0.3s;
 }
 
-.hero-cta:hover {
+.cta-btn:hover {
   background-color: #3275dd;
 }
 
@@ -114,6 +114,7 @@ header {
 
 /* COOKIES SECTION */
 .cookies-section {
+  background-color: #fff;
   padding: 48px 0 96px;
 }
 
@@ -164,4 +165,35 @@ header {
   font-size: 24px;
   font-weight: 700;
   text-align: right;
+}
+
+/* CALL-TO-ACTION SECTION */
+.cta-section {
+  background-color: #fff;
+  padding: 96px 0;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 48px 64px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta-section-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.cta-section-description {
+  font-size: 18px;
+}
+
+.white-border {
+  border: 2px solid #fff;
 }
